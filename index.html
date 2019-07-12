@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <form>
+      Loan Amount: <input type="text" name="principle" id="principle-input" />$
+      <br />
+      Term: <input type="text" name="length" id="length-input" />years <br />
+      Interest Rate: <input type="text" name="rate" id="rate-input" />% <br />
+    </form>
+
+    <button onclick="runCalc()">Calculate</button>
+
+    <table id="table">
+      <thread>
+        <tr>
+          <th>Month</th>
+          <th>Interest</th>
+          <th>Principle</th>
+          <th>Balance</th>
+        </tr>
+      </thread>
+    </table>
+  </body>
+  <script src="src/script.js"></script>
+</html>
