@@ -1,3 +1,3 @@
-# Mortgage Payoff Calculator :house_with_garden:
+# AmortizationSchedule
 
-Have you ever wanted to know how your principal and interest changes throughout the course of your loan? Oh, you didn’t? That’s ok. Clone this repo anyway.
+Creates a table showing the principal, interest, and loan balance as payments are made over the years.
