@@ -1,0 +1,26 @@
+{
+  "name": "amortizationschedule",
+  "version": "1.0.0",
+  "description": "Creates a table showing the principal, interest, and loan balance as payments are made over the years.",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dedaredevil/AmortizationSchedule.git"
+  },
+  "keywords": [],
+  "author": "dedaredevil",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/dedaredevil/AmortizationSchedule/issues"
+  },
+  "homepage": "https://github.com/dedaredevil/AmortizationSchedule#readme",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^8.0.0"
+  }
+}
