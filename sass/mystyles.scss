@@ -1,2 +1,19 @@
 @charset "utf-8";
+
+// Brand colors
+$lavendar: #b2beff;
+$grey: #282a36;
+$black: #121212;
+$white: #ffffff;
+
+// Update Bulma's global variables
+$primary: $grey;
+$link: $lavendar;
+$grey-darker: $white;
+$white: $black;
+$grey-lighter: $lavendar;
+
+// Update some of Bulma's component variables
+$body-background-color: $black;
+
 @import "../node_modules/bulma/bulma.sass";
